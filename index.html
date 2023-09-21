@@ -1,17 +1,6 @@
 <html>
 <header>
-<style>
-    .responsive-iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 100vw;
-      height: 100vh;
-      border: none;
-    }
-  </style>
+
   </header>
   <body>
  
@@ -20,10 +9,5 @@
 
   
   </body>
-    <script>
-    const apps = new URL(window.location);
-    const formUrl = apps.searchParams.get('apps');
-    const url = decodeURIComponent(formUrl)
-          document.getElementById('myframe').src = url
-  </script>
+    
   </html>
